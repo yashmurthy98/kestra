@@ -13,7 +13,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import org.codehaus.commons.nullanalysis.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 import java.util.NoSuchElementException;
 
